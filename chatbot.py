@@ -45,10 +45,6 @@ def lockdown_system():
     os.system("help")
 
 
-def launch_dbd():
-    webbrowser.open('steam://rungameid/381210', new=2)
-
-
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
@@ -99,9 +95,6 @@ while True:
 
     if res == "Initiating Lockdown Sequence...":
         lockdown_system()
-
-    if res == "Launching Dead By Daylight...":
-        launch_dbd()
 
     if res == "Time":
         res = datetime.now()
