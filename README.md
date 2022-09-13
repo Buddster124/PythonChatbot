@@ -9,4 +9,4 @@ Python Chatbot
   2. Run 'chatbot.py'
    
 # Notes
-   1. To add more things edit 'intents.json'
+   1. To add more things, edit 'intents.json'
