@@ -1,5 +1,5 @@
 # Python Chatbot
-Python Chatbot
+Python Chatbot with speech reconiction and tts.
 
 # Description
   A nice little chatbot to use
